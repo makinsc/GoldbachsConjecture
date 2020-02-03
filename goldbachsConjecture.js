@@ -42,7 +42,7 @@ function isPrime(n) {
   }
 
   for (var potentialDivisor = 2; potentialDivisor < n; potentialDivisor++) {
-
+// tema sqr n
     if (n % potentialDivisor === 0) {
       return false;
     }
